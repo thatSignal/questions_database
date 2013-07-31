@@ -34,5 +34,5 @@ u = User.find_by_id(4)
 u.fname = "Daru"
 u.save
 
-u2 = User.new("fname"=>"Mayuri", "lname"=>"Shiina")
-u2.save
+# u2 = User.new("fname"=>"Mayuri", "lname"=>"Shiina")
+# u2.save
